@@ -1,7 +1,8 @@
 import pandas as pd
 import nltk
 import re
-
+nltk.download('stopwords')
+nltk.download('punkt')
 from tensorflow import keras
 import streamlit as st
 from PIL import Image
